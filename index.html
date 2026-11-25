@@ -1,0 +1,1219 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bbwXXX_大码时尚穿搭_大码模特与拍摄社区</title>
+<meta name="description" content="bbwXXX 是大码时尚与自信表达的视频社区，提供大码穿搭教程、大码模特访谈、拍摄幕后、尺码选购指南与社区实拍档案，适合关注大码时尚、身体自爱与穿搭实操的观众。">
+<meta name="keywords" content="大码穿搭教程,大码模特访谈,大码拍摄幕后,尺码选购指南,大码时尚社区">
+<style>
+:root{
+  --ink:#1c1420;
+  --ink-2:#4a3d52;
+  --ink-3:#7a6b82;
+  --paper:#fdf9f6;
+  --panel:#ffffff;
+  --panel-2:#f7efec;
+  --line:#e7dcd8;
+  --line-2:#d9c9c4;
+  --brand:#a83258;
+  --brand-2:#7a1f3f;
+  --brand-soft:#fbe8ee;
+  --accent:#2f6b62;
+  --accent-soft:#e4f1ee;
+  --gold:#b08327;
+  --gold-soft:#faf0d9;
+  --r-s:6px;
+  --r-m:12px;
+  --r-l:20px;
+  --sh-s:0 1px 2px rgba(28,20,32,.06);
+  --sh-m:0 6px 20px rgba(28,20,32,.08);
+  --sh-l:0 16px 40px rgba(28,20,32,.12);
+  --ann-h:38px;
+  --head-h:66px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--font);color:var(--ink);background:var(--paper);
+  font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0 0 10px}
+ul,ol{margin:0;padding:0;list-style:none}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:4px}
+
+/* ============ 吸顶公告条 ============ */
+.announce{
+  position:sticky;top:0;z-index:60;
+  background:linear-gradient(90deg,var(--brand-2),var(--brand) 55%,#c04a6e);
+  color:#fff;font-size:13px;
+}
+.announce-in{
+  max-width:1320px;margin:0 auto;padding:0 20px;height:var(--ann-h);
+  display:flex;align-items:center;gap:12px;overflow:hidden;
+}
+.announce-tag{
+  flex:none;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);
+  padding:1px 8px;border-radius:99px;font-size:11px;letter-spacing:.06em;
+}
+.announce-txt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.announce-txt b{font-weight:700}
+.announce-more{margin-left:auto;flex:none;font-size:12px;opacity:.85;white-space:nowrap}
+@media(max-width:740px){.announce-more{display:none}}
+
+/* ============ 吸顶页头 ============ */
+.header{
+  position:sticky;top:var(--ann-h);z-index:55;
+  background:rgba(253,249,246,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.header-in{
+  max-width:1320px;margin:0 auto;padding:0 20px;height:var(--head-h);
+  display:flex;align-items:center;gap:22px;
+}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand-mark{width:36px;height:36px;flex:none}
+.brand-name{font-size:19px;font-weight:800;letter-spacing:.02em}
+.brand-name small{display:block;font-size:10px;font-weight:500;color:var(--ink-3);letter-spacing:.18em;line-height:1.2}
+.nav{display:flex;gap:4px;flex-wrap:wrap}
+.nav a{
+  padding:6px 11px;border-radius:99px;font-size:14px;color:var(--ink-2);
+  transition:.18s;white-space:nowrap;
+}
+.nav a:hover{background:var(--brand-soft);color:var(--brand-2)}
+.head-tools{margin-left:auto;display:flex;align-items:center;gap:8px;flex:none}
+.search-box{display:flex;align-items:center;background:var(--panel-2);border:1px solid var(--line);border-radius:99px;padding:4px 6px 4px 12px}
+.search-box input{
+  border:0;background:transparent;font-family:inherit;font-size:13px;width:130px;color:var(--ink);outline:none;
+}
+.search-box button{
+  border:0;background:var(--brand);color:#fff;border-radius:99px;font-size:12px;padding:4px 12px;
+}
+.btn-ghost{
+  border:1px solid var(--line-2);background:var(--panel);color:var(--ink-2);
+  border-radius:99px;font-size:13px;padding:5px 14px;
+}
+.btn-ghost:hover{border-color:var(--brand);color:var(--brand-2)}
+.menu-toggle{display:none;border:1px solid var(--line-2);background:var(--panel);border-radius:8px;padding:6px 10px;font-size:13px}
+@media(max-width:1024px){
+  .nav{display:none}
+  .nav.open{
+    display:flex;position:absolute;top:100%;left:0;right:0;background:var(--panel);
+    padding:12px 20px 16px;border-bottom:1px solid var(--line);box-shadow:var(--sh-m);
+    gap:6px;
+  }
+  .menu-toggle{display:inline-block}
+  .search-box input{width:96px}
+}
+@media(max-width:740px){
+  .header-in{gap:10px;padding:0 14px}
+  .brand-name{font-size:16px}
+  .brand-name small{display:none}
+  .search-box{display:none}
+}
+
+/* ============ 通用容器 & 锚点偏移 ============ */
+.wrap{max-width:1320px;margin:0 auto;padding:0 20px}
+section[id]{scroll-margin-top:calc(var(--ann-h) + var(--head-h) + 14px)}
+@media(max-width:740px){.wrap{padding:0 14px}}
+
+/* ============ 首屏 ============ */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 380px at 82% -10%,rgba(168,50,88,.14),transparent 62%),
+    radial-gradient(700px 340px at 4% 110%,rgba(47,107,98,.12),transparent 60%),
+    var(--paper);
+  border-bottom:1px solid var(--line);
+}
+.hero-in{
+  max-width:1320px;margin:0 auto;padding:52px 20px 56px;
+  display:grid;grid-template-columns:1.08fr .92fr;gap:48px;align-items:center;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.14em;
+  color:var(--brand-2);background:var(--brand-soft);border:1px solid #f2d3de;
+  padding:4px 12px;border-radius:99px;margin-bottom:18px;font-weight:600;
+}
+.hero h1{
+  font-size:clamp(38px,5.6vw,64px);letter-spacing:.01em;line-height:1.06;
+  margin-bottom:18px;font-weight:800;
+}
+.hero h1 em{font-style:normal;color:var(--brand);}
+.hero-desc{font-size:16px;color:var(--ink-2);max-width:520px;margin-bottom:26px;line-height:1.85}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px}
+.btn-primary{
+  background:var(--brand);color:#fff;border:0;border-radius:99px;
+  padding:11px 26px;font-size:15px;font-weight:600;box-shadow:0 8px 20px rgba(168,50,88,.28);
+}
+.btn-primary:hover{background:var(--brand-2)}
+.btn-line{
+  border:1.5px solid var(--line-2);border-radius:99px;padding:10px 24px;font-size:15px;
+  color:var(--ink-2);background:var(--panel);font-weight:600;
+}
+.btn-line:hover{border-color:var(--brand);color:var(--brand-2)}
+.hero-stats{display:flex;gap:34px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:20px}
+.hero-stats div strong{display:block;font-size:22px;font-weight:800;color:var(--brand-2);line-height:1.2}
+.hero-stats div span{font-size:12px;color:var(--ink-3)}
+
+/* 首屏视觉：原创 SVG 拼贴 */
+.hero-visual{position:relative;aspect-ratio:1/1;max-width:520px;margin-left:auto}
+.hero-visual svg{width:100%;height:100%;display:block}
+.hero-badge{
+  position:absolute;background:var(--panel);border:1px solid var(--line);
+  border-radius:var(--r-m);box-shadow:var(--sh-m);padding:9px 14px;font-size:12px;
+  font-weight:600;color:var(--ink-2);display:flex;align-items:center;gap:7px;
+}
+.hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--accent);display:inline-block}
+.hb-1{top:6%;left:-4%}
+.hb-2{bottom:16%;right:-2%}
+.hb-3{bottom:2%;left:12%}
+@media(max-width:1024px){
+  .hero-in{grid-template-columns:1fr;gap:36px;padding:40px 20px 44px}
+  .hero-visual{max-width:400px;margin:0 auto;order:2}
+  .hero-badge{font-size:11px;padding:7px 11px}
+  .hb-1{left:0}.hb-2{right:0}
+}
+@media(max-width:740px){
+  .hero-in{padding:30px 14px 36px}
+  .hero-visual{max-width:320px}
+  .hero-stats{gap:22px}
+}
+
+/* ============ 三栏门户 ============ */
+.layout{
+  max-width:1320px;margin:0 auto;padding:34px 20px 60px;
+  display:grid;grid-template-columns:176px minmax(0,1fr) 250px;gap:30px;align-items:start;
+}
+@media(max-width:1024px){
+  .layout{grid-template-columns:minmax(0,1fr) 268px;gap:26px}
+  .side-left{grid-column:1/-1;order:0}
+  .side-left .side-inner{display:flex;gap:8px;flex-wrap:wrap;position:static}
+  .side-left .side-title{width:100%;margin-bottom:6px}
+  .side-left .chan-list{display:flex;gap:6px;flex-wrap:wrap}
+  .side-left .chan-list a{flex:none}
+}
+@media(max-width:740px){
+  .layout{grid-template-columns:1fr;padding:24px 14px 48px;gap:30px}
+  .side-main{order:1}
+  .side-right{order:2}
+  .side-left{order:0}
+}
+
+/* 侧栏通用 */
+.side-card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-m);
+  padding:16px;box-shadow:var(--sh-s);margin-bottom:18px;
+}
+.side-title{
+  font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--ink-3);
+  margin-bottom:12px;display:flex;align-items:center;gap:8px;
+}
+.side-title::before{content:"";width:3px;height:12px;border-radius:2px;background:var(--brand)}
+.side-left .side-inner{position:sticky;top:calc(var(--ann-h) + var(--head-h) + 18px)}
+.chan-list li{margin-bottom:2px}
+.chan-list a{
+  display:flex;justify-content:space-between;align-items:center;gap:6px;
+  padding:7px 10px;border-radius:8px;font-size:14px;color:var(--ink-2);transition:.16s;
+}
+.chan-list a span{font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.chan-list a:hover,.chan-list a.on{background:var(--brand-soft);color:var(--brand-2);font-weight:600}
+.chan-list a.on span{color:var(--brand)}
+
+/* 右侧热榜 */
+.rank-list li{display:flex;gap:10px;padding:9px 0;border-bottom:1px dashed var(--line)}
+.rank-list li:last-child{border-bottom:0;padding-bottom:0}
+.rank-no{
+  flex:none;width:18px;font-size:13px;font-weight:800;color:var(--ink-3);
+  font-variant-numeric:tabular-nums;line-height:1.6;
+}
+.rank-list li:nth-child(-n+3) .rank-no{color:var(--brand)}
+.rank-body{min-width:0}
+.rank-body b{display:block;font-size:13.5px;font-weight:600;line-height:1.5}
+.rank-body small{font-size:11.5px;color:var(--ink-3)}
+.update-list li{padding:8px 0;border-bottom:1px dashed var(--line);font-size:13px;color:var(--ink-2);display:flex;gap:8px}
+.update-list li:last-child{border-bottom:0}
+.update-list time{flex:none;color:var(--brand-2);font-size:11.5px;font-variant-numeric:tabular-nums;padding-top:2px}
+
+/* ============ 板块通用 ============ */
+.block{margin-bottom:44px}
+.block-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.block-head h2{
+  font-size:22px;letter-spacing:.01em;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+}
+.block-head h2::before{content:"";width:4px;height:20px;border-radius:2px;background:var(--brand);flex:none}
+.block-head .sub{font-size:13px;color:var(--ink-3);margin-top:2px}
+.block-link{font-size:13px;color:var(--brand-2);font-weight:600;white-space:nowrap}
+.block-link:hover{text-decoration:underline}
+
+/* 概览 */
+.overview{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-l);
+  padding:26px 28px;box-shadow:var(--sh-s);
+  columns:2;column-gap:34px;
+}
+.overview p{margin:0 0 12px;color:var(--ink-2);font-size:14.5px;break-inside:avoid}
+.overview p:first-child::first-letter{
+  float:left;font-size:42px;line-height:.9;font-weight:800;color:var(--brand);
+  margin:4px 8px 0 0;
+}
+.overview b{color:var(--ink)}
+@media(max-width:900px){.overview{columns:1;padding:20px}}
+
+/* 精选卡片 */
+.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+@media(max-width:1024px){.card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.card-grid{grid-template-columns:1fr}}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-m);
+  overflow:hidden;display:flex;flex-direction:column;transition:.2s;
+}
+.card:hover{box-shadow:var(--sh-m);transform:translateY(-2px);border-color:var(--line-2)}
+.card-cover{position:relative;aspect-ratio:4/3;background:var(--panel-2);overflow:hidden}
+.card-cover img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.card:hover .card-cover img{transform:scale(1.04)}
+.card-type{
+  position:absolute;top:10px;left:10px;background:rgba(28,20,32,.78);color:#fff;
+  font-size:11px;padding:2px 8px;border-radius:4px;letter-spacing:.04em;backdrop-filter:blur(4px);
+}
+.card-body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:7px;flex:1}
+.card-body h3{font-size:15.5px;line-height:1.45}
+.card-body h3 a:hover{color:var(--brand)}
+.card-desc{font-size:13px;color:var(--ink-3);line-height:1.65;flex:1}
+.tags{display:flex;gap:5px;flex-wrap:wrap}
+.tag{
+  font-size:11px;color:var(--brand-2);background:var(--brand-soft);
+  padding:2px 7px;border-radius:4px;white-space:nowrap;
+}
+.tag.g{background:var(--accent-soft);color:var(--accent)}
+.tag.y{background:var(--gold-soft);color:var(--gold)}
+.card-meta{
+  display:flex;align-items:center;gap:10px;font-size:11.5px;color:var(--ink-3);
+  border-top:1px dashed var(--line);padding-top:8px;font-variant-numeric:tabular-nums;
+}
+.card-meta .hot{color:var(--brand);font-weight:600;margin-left:auto}
+
+/* 最新更新 列表 */
+.upd-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 26px}
+@media(max-width:740px){.upd-grid{grid-template-columns:1fr}}
+.upd-item{
+  display:flex;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line);
+  align-items:flex-start;
+}
+.upd-item:nth-last-child(-n+2){border-bottom:1px dashed var(--line)}
+.upd-time{
+  flex:none;font-size:11.5px;color:var(--brand-2);background:var(--brand-soft);
+  border-radius:4px;padding:1px 7px;font-variant-numeric:tabular-nums;margin-top:3px;
+}
+.upd-body b{font-size:14px;font-weight:600;display:block;line-height:1.5}
+.upd-body small{font-size:12.5px;color:var(--ink-3);line-height:1.6}
+
+/* 分类入口 */
+.cat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media(max-width:900px){.cat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.cat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.cat{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-m);
+  padding:14px 15px;transition:.18s;display:block;
+}
+.cat:hover{border-color:var(--brand);background:var(--brand-soft);transform:translateY(-1px)}
+.cat b{display:block;font-size:14.5px;margin-bottom:3px}
+.cat small{font-size:11.5px;color:var(--ink-3);line-height:1.5;display:block}
+.cat em{
+  font-style:normal;font-size:11px;color:var(--brand);font-weight:600;
+  display:inline-block;margin-top:6px;
+}
+
+/* 深度解析 */
+.article{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-l);
+  padding:30px 34px;box-shadow:var(--sh-s);
+}
+.article h3{
+  font-size:17px;margin:26px 0 10px;padding-left:12px;border-left:3px solid var(--brand);
+  line-height:1.4;
+}
+.article h3:first-of-type{margin-top:0}
+.article p{font-size:14.5px;color:var(--ink-2);line-height:1.9}
+.article ul.dot{margin:10px 0 16px;padding-left:2px}
+.article ul.dot li{
+  position:relative;padding-left:17px;font-size:14px;color:var(--ink-2);
+  line-height:1.85;margin-bottom:6px;
+}
+.article ul.dot li::before{
+  content:"";position:absolute;left:2px;top:11px;width:5px;height:5px;
+  border-radius:50%;background:var(--brand);
+}
+.article strong{color:var(--ink);font-weight:700}
+.quote{
+  border-left:3px solid var(--gold);background:var(--gold-soft);
+  padding:14px 18px;border-radius:0 var(--r-s) var(--r-s) 0;
+  font-size:14px;color:#6b5018;margin:16px 0;line-height:1.8;
+}
+@media(max-width:740px){.article{padding:20px 18px}}
+
+/* 体验指南 步骤 */
+.steps{counter-reset:step;display:grid;gap:12px}
+.step{
+  display:grid;grid-template-columns:40px minmax(0,1fr);gap:14px;
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-m);
+  padding:16px 18px;align-items:start;
+}
+.step::before{
+  counter-increment:step;content:counter(step,decimal-leading-zero);
+  font-size:15px;font-weight:800;color:var(--brand);background:var(--brand-soft);
+  border-radius:8px;height:34px;display:grid;place-items:center;
+  font-variant-numeric:tabular-nums;
+}
+.step b{display:block;font-size:14.5px;margin-bottom:3px}
+.step p{font-size:13.5px;color:var(--ink-3);margin:0;line-height:1.7}
+
+/* FAQ */
+.faq{border:1px solid var(--line);border-radius:var(--r-m);overflow:hidden;background:var(--panel)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:last-child{border-bottom:0}
+.faq summary{
+  list-style:none;cursor:pointer;padding:15px 20px;font-size:14.5px;font-weight:600;
+  display:flex;align-items:center;gap:10px;transition:.15s;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{
+  content:"Q";flex:none;width:22px;height:22px;border-radius:6px;background:var(--brand-soft);
+  color:var(--brand);font-size:12px;font-weight:800;display:grid;place-items:center;
+}
+.faq summary::after{
+  content:"+";margin-left:auto;color:var(--ink-3);font-size:18px;font-weight:400;line-height:1;
+}
+.faq details[open] summary::after{content:"–";color:var(--brand)}
+.faq details[open] summary{background:var(--panel-2)}
+.faq summary:hover{background:var(--panel-2)}
+.faq-body{padding:2px 20px 17px 52px;font-size:13.8px;color:var(--ink-2);line-height:1.85}
+@media(max-width:740px){.faq-body{padding-left:20px}}
+
+/* 评论 */
+.cmt-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:740px){.cmt-grid{grid-template-columns:1fr}}
+.cmt{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-m);
+  padding:13px 15px;display:flex;gap:11px;
+}
+.avatar{
+  flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;
+  font-size:13px;font-weight:700;color:#fff;
+}
+.cmt-body{min-width:0}
+.cmt-top{display:flex;align-items:baseline;gap:8px;margin-bottom:3px;flex-wrap:wrap}
+.cmt-top b{font-size:13px;color:var(--ink)}
+.cmt-top time{font-size:11px;color:var(--ink-3)}
+.cmt-top .star{font-size:11px;color:var(--gold);letter-spacing:1px;margin-left:auto}
+.cmt-body p{font-size:13px;color:var(--ink-2);margin:0;line-height:1.7}
+
+/* 资讯 */
+.news-list{display:grid;gap:12px}
+.news{
+  display:grid;grid-template-columns:132px minmax(0,1fr);gap:16px;
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-m);
+  padding:12px;align-items:center;transition:.18s;
+}
+.news:hover{border-color:var(--line-2);box-shadow:var(--sh-s)}
+.news img{width:132px;height:88px;object-fit:cover;border-radius:var(--r-s)}
+.news h3{font-size:14.5px;margin-bottom:4px}
+.news h3 a:hover{color:var(--brand)}
+.news p{font-size:12.8px;color:var(--ink-3);margin:0 0 5px;line-height:1.6}
+.news time{font-size:11.5px;color:var(--brand-2);font-variant-numeric:tabular-nums}
+@media(max-width:600px){
+  .news{grid-template-columns:88px minmax(0,1fr);gap:11px}
+  .news img{width:88px;height:66px}
+}
+
+/* 相关推荐 标签索引 */
+.rel-index{display:flex;flex-wrap:wrap;gap:9px}
+.rel-index a{
+  background:var(--panel);border:1px solid var(--line);border-radius:99px;
+  padding:7px 15px;font-size:13px;color:var(--ink-2);transition:.16s;
+}
+.rel-index a:hover{background:var(--brand);color:#fff;border-color:var(--brand)}
+.rel-index a span{color:var(--ink-3);font-size:11.5px;margin-left:5px}
+.rel-index a:hover span{color:rgba(255,255,255,.75)}
+
+/* 榜单 + 时间线 */
+.two-col{display:grid;grid-template-columns:1.05fr .95fr;gap:22px}
+@media(max-width:900px){.two-col{grid-template-columns:1fr}}
+.panel-box{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-m);padding:18px 20px}
+.panel-box h3{font-size:15px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.panel-box h3 small{font-size:11.5px;color:var(--ink-3);font-weight:400;margin-left:auto}
+.bill li{display:flex;gap:11px;padding:8px 0;align-items:baseline;border-bottom:1px dashed var(--line)}
+.bill li:last-child{border-bottom:0}
+.bill .no{
+  flex:none;width:20px;font-size:13px;font-weight:800;color:var(--ink-3);
+  font-variant-numeric:tabular-nums;
+}
+.bill li:nth-child(-n+3) .no{color:var(--brand)}
+.bill b{font-size:13.5px;font-weight:600;flex:1;min-width:0}
+.bill span{font-size:11.5px;color:var(--ink-3);white-space:nowrap}
+.timeline{position:relative;padding-left:16px}
+.timeline::before{content:"";position:absolute;left:3px;top:6px;bottom:6px;width:1.5px;background:var(--line-2)}
+.timeline li{position:relative;padding-bottom:14px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{
+  content:"";position:absolute;left:-16px;top:6px;width:8px;height:8px;border-radius:50%;
+  background:var(--panel);border:2px solid var(--brand);
+}
+.timeline time{font-size:11.5px;color:var(--brand-2);font-weight:600;font-variant-numeric:tabular-nums}
+.timeline b{display:block;font-size:13.5px;font-weight:600;margin:1px 0 2px}
+.timeline small{font-size:12px;color:var(--ink-3);line-height:1.6}
+
+/* 搜索无结果 */
+.no-result{
+  display:none;padding:20px;text-align:center;color:var(--ink-3);font-size:14px;
+  background:var(--panel);border:1px dashed var(--line-2);border-radius:var(--r-m);
+}
+.no-result.show{display:block}
+
+/* 页尾 */
+.footer{
+  background:#1e1622;color:#cbbfc9;margin-top:20px;
+  border-top:3px solid var(--brand);
+}
+.footer-in{max-width:1320px;margin:0 auto;padding:44px 20px 26px}
+.foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px}
+@media(max-width:900px){.foot-top{grid-template-columns:1fr 1fr;gap:26px}}
+@media(max-width:560px){.foot-top{grid-template-columns:1fr}}
+.foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.foot-brand .brand-name{color:#fff;font-size:17px}
+.foot-brand .brand-name small{color:#8d7f8a}
+.foot-desc{font-size:13px;line-height:1.8;color:#a2949f;max-width:300px}
+.foot-col h4{font-size:13px;color:#fff;margin-bottom:12px;letter-spacing:.06em}
+.foot-col li{margin-bottom:8px}
+.foot-col a{font-size:13px;color:#a2949f;transition:.15s}
+.foot-col a:hover{color:#fff}
+.foot-bottom{
+  border-top:1px solid #352a3b;padding-top:18px;display:flex;justify-content:space-between;
+  gap:14px;flex-wrap:wrap;font-size:12px;color:#7e7183;line-height:1.8;
+}
+.foot-bottom a:hover{color:#fff}
+@media(max-width:740px){.footer-in{padding:32px 14px 22px}}
+
+/* 回到顶部 */
+.to-top{
+  position:fixed;right:18px;bottom:22px;z-index:40;width:40px;height:40px;border-radius:50%;
+  border:1px solid var(--line-2);background:var(--panel);color:var(--ink-2);
+  box-shadow:var(--sh-m);display:grid;place-items:center;font-size:16px;
+  opacity:0;pointer-events:none;transition:.2s;
+}
+.to-top.show{opacity:1;pointer-events:auto}
+.to-top:hover{background:var(--brand);color:#fff;border-color:var(--brand)}
+@media(max-width:740px){.to-top{right:12px;bottom:14px;width:36px;height:36px}}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- ===== 吸顶公告条 ===== -->
+<div class="announce">
+  <div class="announce-in">
+    <span class="announce-tag">更新</span>
+    <span class="announce-txt">本周新增 <b>12 条</b> 大码拍摄档案，<b>「冬季大衣版型实测」</b>与<b>「大码模特试镜全记录」</b>已上线，尺码选购指南更新至 2026 冬季版。</span>
+    <a class="announce-more" href="/#updates">查看更新 →</a>
+  </div>
+</div>
+
+<!-- ===== 吸顶页头 ===== -->
+<header class="header">
+  <div class="header-in">
+    <a class="brand" href="/#top" aria-label="bbwXXX 首页">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-hidden="true">
+        <defs>
+          <linearGradient id="lgBrand" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#a83258"/>
+            <stop offset="1" stop-color="#7a1f3f"/>
+          </linearGradient>
+        </defs>
+        <rect x="1" y="1" width="38" height="38" rx="11" fill="url(#lgBrand)"/>
+        <circle cx="15" cy="16" r="4.6" fill="none" stroke="#fff" stroke-width="2"/>
+        <circle cx="26.5" cy="16" r="4.6" fill="none" stroke="#fff" stroke-width="2" opacity=".55"/>
+        <path d="M8.5 30.5c2.2-5.2 5.4-7.8 9.5-7.8s7.3 2.6 9.5 7.8" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+        <path d="M12 29.5c1.9-4.2 4.4-6.3 7.7-6.3s5.8 2.1 7.7 6.3" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">bbwXXX<small>BODY · STYLE · STORY</small></span>
+    </a>
+
+    <nav class="nav" id="mainNav" aria-label="主题导航">
+      <a href="/#overview">领域概览</a>
+      <a href="/#featured">精选内容</a>
+      <a href="/#updates">最新更新</a>
+      <a href="/#categories">分类入口</a>
+      <a href="/#deepdive">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#comments">社区评论</a>
+    </nav>
+
+    <div class="head-tools">
+      <div class="search-box" role="search">
+        <input type="search" id="searchInput" placeholder="搜条目 / 类型" aria-label="搜索站内条目">
+        <button type="button" id="searchBtn">搜索</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">菜单</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== 首屏 ===== -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="hero-in">
+      <div class="hero-text">
+        <span class="hero-eyebrow">大码时尚 · 自信表达 · 视频社区</span>
+        <h1 id="heroTitle">bbwXXX</h1>
+        <p class="hero-desc">一个把大码穿搭、真实身形与镜头表达放在一起看的视频社区。这里有版型实测、大码模特访谈、拍摄幕后与尺码选购依据，帮你在具体条目的对比中找到适合自己的那一套。</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="/#featured">看本期精选条目</a>
+          <a class="btn-line" href="/#guide">从哪部开始看</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>1,860+</strong><span>实拍与访谈档案</span></div>
+          <div><strong>38</strong><span>在更视频栏目</span></div>
+          <div><strong>每周 3 更</strong><span>版型实测与幕后</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 400 400" role="img">
+          <defs>
+            <linearGradient id="hv1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#fbe8ee"/><stop offset="1" stop-color="#f2d3de"/>
+            </linearGradient>
+            <linearGradient id="hv2" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#e4f1ee"/><stop offset="1" stop-color="#cfe6e1"/>
+            </linearGradient>
+            <linearGradient id="hv3" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#a83258"/><stop offset="1" stop-color="#7a1f3f"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="400" height="400" rx="28" fill="#fff"/>
+          <!-- 背景弧 -->
+          <circle cx="300" cy="86" r="120" fill="url(#hv1)"/>
+          <circle cx="86" cy="322" r="104" fill="url(#hv2)"/>
+          <!-- 中央镜头框 -->
+          <rect x="88" y="96" width="224" height="208" rx="18" fill="#fdf9f6" stroke="#e7dcd8"/>
+          <rect x="104" y="112" width="192" height="140" rx="12" fill="url(#hv3)"/>
+          <!-- 播放三角 -->
+          <path d="M182 166l40 22-40 22z" fill="#fff" opacity=".95"/>
+          <!-- 身形曲线 -->
+          <path d="M148 278c8-14 20-21 34-21s26 7 34 21" fill="none" stroke="#a83258" stroke-width="3.4" stroke-linecap="round"/>
+          <path d="M136 296c12-22 28-33 46-33s34 11 46 33" fill="none" stroke="#a83258" stroke-width="2.2" stroke-linecap="round" opacity=".45"/>
+          <!-- 顶部刻度 -->
+          <g fill="#d9c9c4">
+            <rect x="112" y="72" width="4" height="14" rx="2"/>
+            <rect x="128" y="66" width="4" height="20" rx="2"/>
+            <rect x="144" y="72" width="4" height="14" rx="2"/>
+            <rect x="160" y="62" width="4" height="24" rx="2" fill="#a83258"/>
+            <rect x="176" y="72" width="4" height="14" rx="2"/>
+            <rect x="192" y="66" width="4" height="20" rx="2"/>
+            <rect x="208" y="72" width="4" height="14" rx="2"/>
+          </g>
+          <!-- 右侧色板 -->
+          <rect x="304" y="188" width="42" height="42" rx="10" fill="#a83258"/>
+          <rect x="304" y="238" width="42" height="42" rx="10" fill="#2f6b62" opacity=".85"/>
+          <rect x="304" y="288" width="42" height="42" rx="10" fill="#b08327" opacity=".8"/>
+          <!-- 底部条 -->
+          <rect x="88" y="330" width="224" height="10" rx="5" fill="#f2d3de"/>
+          <rect x="88" y="330" width="132" height="10" rx="5" fill="#a83258"/>
+        </svg>
+        <span class="hero-badge hb-1"><i></i>版型实测 · 更新中</span>
+        <span class="hero-badge hb-2"><i style="background:#b08327"></i>模特访谈 · 第 4 季</span>
+        <span class="hero-badge hb-3"><i style="background:#a83258"></i>本周新增 12 条档案</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 三栏门户 ===== -->
+  <div class="layout">
+
+    <!-- 左：频道索引 -->
+    <aside class="side-left" aria-label="频道索引">
+      <div class="side-inner">
+        <div class="side-card" style="flex:1">
+          <div class="side-title">频道索引</div>
+          <ul class="chan-list">
+            <li><a href="/#featured" class="on">穿搭教程<span>312</span></a></li>
+            <li><a href="/#updates">版型实测<span>186</span></a></li>
+            <li><a href="/#featured">模特访谈<span>94</span></a></li>
+            <li><a href="/#updates">拍摄幕后<span>158</span></a></li>
+            <li><a href="/#categories">尺码选购<span>221</span></a></li>
+            <li><a href="/#categories">面料与剪裁<span>143</span></a></li>
+            <li><a href="/#deepdive">身体自爱<span>87</span></a></li>
+            <li><a href="/#comments">社区实拍<span>402</span></a></li>
+            <li><a href="/#news">行业动态<span>66</span></a></li>
+            <li><a href="/#bill">榜单档案<span>38</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 中：主内容 -->
+    <div class="side-main">
+
+      <!-- 1. 领域概览 -->
+      <section class="block" id="overview">
+        <div class="block-head">
+          <div>
+            <h2>大码时尚内容版图：现在在拍什么</h2>
+            <div class="sub">从穿搭实操到镜头表达，看清这个领域包含哪些具体方向</div>
+          </div>
+        </div>
+        <div class="overview">
+          <p><b>大码时尚</b>并不是单一类型，它至少分成四块可以分别消费的内容：一是<b>穿搭实操</b>，讲具体版型在具体身形上的落点，比如落肩大衣在 165cm / 3XL 身形上肩线掉到哪里；二是<b>人物访谈</b>，大码模特、造型师、买手谈入行经历与镜头前的身体感受；三是<b>拍摄幕后</b>，从打光、机位到服装备选，解释一张大码商业图是怎么被拍出来的；四是<b>选购判断</b>，围绕尺码表、面料垂坠感、退货率这类可比较的信息做横向评测。</p>
+          <p>当下值得关注的具体方向有三个。其一是<b>冬季外套的版型实测</b>，2026 年秋冬大码外套普遍往「宽肩窄袖」走，肩宽与袖笼的匹配问题被反复讨论；其二是<b>大码模特的试镜记录</b>，多家品牌开始公布试镜标准，卡尺码、卡身高的做法在部分品类里松动；其三是<b>面料与洗后变形</b>，针织与仿羊毛的缩水率成为评测视频里最常被追问的指标。</p>
+          <p>和普通穿搭内容相比，这一领域的判断标准更依赖<b>可复现的数据</b>：身高、体重、三围、所穿尺码、面料成分、洗后尺寸变化。只看成片容易失真，所以本页把「版型实测」「试镜全记录」「尺码选购指南」这类带具体参数的内容放在前面。</p>
+          <p>内容形态上，长视频负责拆解一个完整主题，短视频负责单点对比，图文档案负责留档可查。三者互补：先用短视频判断一个条目是否与自己相关，再用长视频看完整逻辑，最后回到档案核对尺码与面料。</p>
+        </div>
+      </section>
+
+      <!-- 2. 精选内容推荐 -->
+      <section class="block" id="featured">
+        <div class="block-head">
+          <div>
+            <h2>精选条目：本期值得先看的 9 个</h2>
+            <div class="sub">每条含具体看点、类型标签与更新信息</div>
+          </div>
+          <a class="block-link" href="/#updates">全部更新 →</a>
+        </div>
+
+        <div class="card-grid" id="cardGrid">
+
+          <article class="card" data-title="冬季大衣版型实测 落肩与正肩">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-dayi01/400/300" alt="冬季大衣版型实测封面对比图" width="400" height="300" loading="lazy">
+              <span class="card-type">版型实测</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">冬季大衣版型实测：落肩与正肩差在哪</a></h3>
+              <p class="card-desc">同一 3XL 身形分别试穿落肩与正肩两款大衣，记录肩线落点、袖笼余量与抬手时的束缚位置，给出可对照的测量数据。</p>
+              <div class="tags"><span class="tag">3XL 实测</span><span class="tag g">肩线对比</span><span class="tag y">2026 冬季</span></div>
+              <div class="card-meta"><span>时长 24:10</span><span class="hot">热度 9,820</span></div>
+            </div>
+          </article>
+
+          <article class="card" data-title="大码模特试镜全记录 第 4 季">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-shijing02/400/300" alt="大码模特试镜现场记录封面" width="400" height="300" loading="lazy">
+              <span class="card-type">模特访谈</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">大码模特试镜全记录 第 4 季</a></h3>
+              <p class="card-desc">跟拍六位 XL—4XL 模特从投递到定妆的完整流程，记录品牌方对身高、三围与镜头表现力的实际关注顺序。</p>
+              <div class="tags"><span class="tag">试镜流程</span><span class="tag g">镜头表现</span></div>
+              <div class="card-meta"><span>共 6 集</span><span class="hot">热度 8,410</span></div>
+            </div>
+          </article>
+
+          <article class="card" data-title="针织裙洗后缩水率横评">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-zhenzhi03/400/300" alt="针织裙洗后尺寸变化对比图" width="400" height="300" loading="lazy">
+              <span class="card-type">选购评测</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">针织裙洗后缩水率横评：8 个品牌实测</a></h3>
+              <p class="card-desc">按 30℃ 机洗与平铺阴干统一条件，记录八个品牌针织裙洗后衣长、胸围、臀围的变化，附具体缩水比例。</p>
+              <div class="tags"><span class="tag y">缩水率</span><span class="tag">面料成分</span><span class="tag g">可复现</span></div>
+              <div class="card-meta"><span>时长 31:05</span><span class="hot">热度 7,960</span></div>
+            </div>
+          </article>
+
+          <article class="card" data-title="大码通勤穿搭 一周五套">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-tongqin04/400/300" alt="大码通勤穿搭一周五套搭配封面" width="400" height="300" loading="lazy">
+              <span class="card-type">穿搭教程</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">大码通勤穿搭：一周五套可直接照搬</a></h3>
+              <p class="card-desc">针对 168cm / 2XL 身形，给出周一到周五的具体组合，重点处理西装裤腰头压迫与衬衫胸前开衩问题。</p>
+              <div class="tags"><span class="tag">通勤</span><span class="tag g">2XL 身形</span></div>
+              <div class="card-meta"><span>时长 18:32</span><span class="hot">热度 7,120</span></div>
+            </div>
+          </article>
+
+          <article class="card" data-title="大码拍摄打光与机位解析">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-muhou05/400/300" alt="大码商业拍摄打光机位示意图" width="400" height="300" loading="lazy">
+              <span class="card-type">拍摄幕后</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">大码拍摄打光与机位解析：如何不压身形</a></h3>
+              <p class="card-desc">从柔光箱高度、镜头焦段到模特转身角度，拆解三组常见布光在 3XL 身形上的阴影落点差异。</p>
+              <div class="tags"><span class="tag g">布光</span><span class="tag">焦段</span><span class="tag y">商业拍摄</span></div>
+              <div class="card-meta"><span>时长 22:48</span><span class="hot">热度 6,540</span></div>
+            </div>
+          </article>
+
+          <article class="card" data-title="大码牛仔 弹力与硬挺怎么选">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-niuzai06/400/300" alt="大码牛仔裤弹力与硬挺版型对比" width="400" height="300" loading="lazy">
+              <span class="card-type">选购评测</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">大码牛仔怎么选：弹力款与硬挺款的取舍</a></h3>
+              <p class="card-desc">对比含氨纶 2%、5% 与无弹三种面料的久坐形变，给出臀围贴合与膝盖鼓包之间的权衡建议。</p>
+              <div class="tags"><span class="tag">牛仔</span><span class="tag g">氨纶比例</span></div>
+              <div class="card-meta"><span>时长 15:20</span><span class="hot">热度 6,180</span></div>
+            </div>
+          </article>
+
+          <article class="card" data-title="大码泳装拍摄 身体自爱访谈">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-yongzhuang07/400/300" alt="大码泳装拍摄现场与模特访谈" width="400" height="300" loading="lazy">
+              <span class="card-type">人物访谈</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">大码泳装拍摄：三位模特的镜头自述</a></h3>
+              <p class="card-desc">三位 3XL—4XL 模特谈第一次穿泳装面对镜头的具体过程，以及在商业拍摄中如何与摄影师沟通角度。</p>
+              <div class="tags"><span class="tag y">身体自爱</span><span class="tag g">泳装</span></div>
+              <div class="card-meta"><span>时长 27:14</span><span class="hot">热度 5,930</span></div>
+            </div>
+          </article>
+
+          <article class="card" data-title="大码西装裤腰头改造教程">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-yaotou08/400/300" alt="大码西装裤腰头加宽改造步骤图" width="400" height="300" loading="lazy">
+              <span class="card-type">穿搭教程</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">西装裤腰头压迫：三步改造与替代方案</a></h3>
+              <p class="card-desc">演示加宽腰头内衬、替换隐形松紧、改穿高腰版型三种做法，标注各自适合的臀腰差区间。</p>
+              <div class="tags"><span class="tag">改造</span><span class="tag g">臀腰差</span></div>
+              <div class="card-meta"><span>时长 12:06</span><span class="hot">热度 5,470</span></div>
+            </div>
+          </article>
+
+          <article class="card" data-title="大码外套尺码表对照 三家品牌">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/bbw-chima09/400/300" alt="三家品牌大码外套尺码表对照" width="400" height="300" loading="lazy">
+              <span class="card-type">尺码指南</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#featured">三家大码外套尺码表对照：同标 3XL 差多少</a></h3>
+              <p class="card-desc">把三家常被比较的品牌 3XL 外套实测胸围、衣长、肩宽并列，标出跨品牌选码时最容易踩的两个坑。</p>
+              <div class="tags"><span class="tag y">3XL</span><span class="tag">跨品牌</span><span class="tag g">尺码表</span></div>
+              <div class="card-meta"><span>图文档案</span><span class="hot">热度 5,120</span></div>
+            </div>
+          </article>
+
+        </div>
+        <div class="no-result" id="noResult">没有找到匹配的条目，试试「大衣」「试镜」「缩水」等具体关键词。</div>
+      </section>
+
+      <!-- 3. 最新更新 -->
+      <section class="block" id="updates">
+        <div class="block-head">
+          <div>
+            <h2>最新更新与动态</h2>
+            <div class="sub">截至 2026 年 11 月 25 日的条目进度</div>
+          </div>
+        </div>
+        <div class="upd-grid">
+          <div class="upd-item"><span class="upd-time">今天 09:30</span><div class="upd-body"><b>《冬季大衣版型实测》第 3 集上线</b><small>补测落肩款在 4XL 身形上的袖笼余量，附三张侧面测量图。</small></div></div>
+          <div class="upd-item"><span class="upd-time">今天 08:10</span><div class="upd-body"><b>《大码模特试镜全记录》第 4 集更新</b><small>本期进入定妆环节，记录品牌方对发色与妆面的两轮调整。</small></div></div>
+          <div class="upd-item"><span class="upd-time">昨天 21:40</span><div class="upd-body"><b>针织裙缩水率横评补充第 9 个样本</b><small>新增一个仿羊毛混纺品牌，洗后衣长缩短 4.2cm。</small></div></div>
+          <div class="upd-item"><span class="upd-time">昨天 18:05</span><div class="upd-body"><b>《大码泳装拍摄》访谈下集上线</b><small>第三位模特谈与摄影师的沟通话术，含现场原声片段。</small></div></div>
+          <div class="upd-item"><span class="upd-time">11 月 23 日</span><div class="upd-body"><b>尺码选购指南更新至 2026 冬季版</b><small>新增 11 个品牌的大码外套实测数据，覆盖 2XL—5XL。</small></div></div>
+          <div class="upd-item"><span class="upd-time">11 月 22 日</span><div class="upd-body"><b>《大码通勤穿搭》加更冬季裤装篇</b><small>新增羊毛混纺西装裤的垂坠与起球观察记录。</small></div></div>
+          <div class="upd-item"><span class="upd-time">11 月 20 日</span><div class="upd-body"><b>拍摄幕后栏目上新「柔光箱高度」单集</b><small>对比 180cm 与 210cm 两种灯位在 3XL 身形上的阴影差异。</small></div></div>
+          <div class="upd-item"><span class="upd-time">11 月 18 日</span><div class="upd-body"><b>社区实拍档案新增 12 条</b><small>来自 6 个城市的用户投稿，含身高体重与所穿尺码标注。</small></div></div>
+          <div class="upd-item"><span class="upd-time">11 月 16 日</span><div class="upd-body"><b>《大码牛仔怎么选》补充硬挺款久坐测试</b><small>连续 6 小时坐姿后记录膝盖鼓包高度变化。</small></div></div>
+          <div class="upd-item"><span class="upd-time">11 月 14 日</span><div class="upd-body"><b>身体自爱栏目上线「镜头前的第一次」系列</b><small>首批 5 位素人讲述首次面对镜头的具体感受。</small></div></div>
+        </div>
+      </section>
+
+      <!-- 4. 分类入口 -->
+      <section class="block" id="categories">
+        <div class="block-head">
+          <div>
+            <h2>按类别找内容</h2>
+            <div class="sub">八个垂类入口，对应你实际会搜索的类别词</div>
+          </div>
+        </div>
+        <div class="cat-grid">
+          <a class="cat" href="/#featured"><b>穿搭教程</b><small>通勤、约会、冬季叠穿的具体组合</small><em>312 条 →</em></a>
+          <a class="cat" href="/#updates"><b>版型实测</b><small>同身形多款对比，带测量数据</small><em>186 条 →</em></a>
+          <a class="cat" href="/#featured"><b>模特访谈</b><small>试镜经历、镜头感受与职业路径</small><em>94 条 →</em></a>
+          <a class="cat" href="/#updates"><b>拍摄幕后</b><small>布光、机位、服装备选的现场记录</small><em>158 条 →</em></a>
+          <a class="cat" href="/#deepdive"><b>尺码选购</b><small>跨品牌尺码表对照与退货率参考</small><em>221 条 →</em></a>
+          <a class="cat" href="/#deepdive"><b>面料与剪裁</b><small>垂坠、缩水、起球的可复现观察</small><em>143 条 →</em></a>
+          <a class="cat" href="/#comments"><b>社区实拍</b><small>用户投稿的真实身形与穿着记录</small><em>402 条 →</em></a>
+          <a class="cat" href="/#news"><b>行业动态</b><small>品牌尺码策略与试镜标准变化</small><em>66 条 →</em></a>
+        </div>
+      </section>
+
+      <!-- 5. 深度解析 -->
+      <section class="block" id="deepdive">
+        <div class="block-head">
+          <div>
+            <h2>深度解析：大码内容为什么难做，又该怎么看</h2>
+            <div class="sub">从版型、面料到镜头，拆开具体判断维度</div>
+          </div>
+        </div>
+        <div class="article">
+          <h3>一、同标 3XL，为什么穿起来差一个码</h3>
+          <p>大码服装最容易误导人的地方，是「尺码标签」并不统一。同样是 3XL，A 品牌胸围可能做到 124cm，B 品牌只有 116cm，衣长相差 5cm 以上。这种差异在标准码里不明显，到 3XL 之后被放大，因为版型放码时的放量规则不同：有的品牌按胸围等比例放大，有的只加宽不加长，肩宽几乎不动。</p>
+          <p>实际挑选时，建议把标签放到一边，只看四个数字：<strong>胸围、肩宽、袖笼、衣长</strong>。这四个数字决定了一件外套在你身上的落点。胸围决定扣上之后是否紧绷，肩宽决定肩线落在肩峰还是掉到手臂，袖笼决定抬手时会不会整件衣服跟着上提，衣长决定比例重心。</p>
+          <ul class="dot">
+            <li>胸围比自身净胸围大 8—12cm，通常是合身偏松的区间；</li>
+            <li>肩宽超过自身肩宽 4cm 以上，落肩感明显，视觉上更宽；</li>
+            <li>袖笼深度超过 26cm 时，抬手容易带动整件衣服；</li>
+            <li>衣长与身高比超过 0.55，容易压比例，需搭配高腰下装。</li>
+          </ul>
+
+          <h3>二、面料垂坠感，比版型更影响观感</h3>
+          <p>版型决定轮廓，面料决定轮廓能不能挂住。同样是宽松大衣，羊毛混纺与聚酯纤维在 3XL 身形上呈现的线条完全不同：前者有重量，下摆自然垂落，侧面看是一条顺滑的斜线；后者偏轻，容易在腰侧堆出横向褶皱，把视觉重心拉宽。</p>
+          <p>判断垂坠感有一个简单办法：看面料成分里天然纤维的比例是否达到 40% 以上，再看克重。秋冬外套克重低于 380g/㎡ 的，多数偏轻飘；超过 550g/㎡ 的，又容易硬挺到不贴身。中间区间通常更适合大码身形。</p>
+          <div class="quote">一个常被忽略的细节：大码身形的腰侧褶皱，很多时候不是「胖」，而是面料在腰臀差最大处没有留出足够的活动余量。选料时优先看侧缝有没有做弧形剪裁。</div>
+
+          <h3>三、镜头里的身形，和镜子里的不一样</h3>
+          <p>大码拍摄里，焦段和机位高度对身形的呈现影响极大。广角近距离拍摄会放大离镜头最近的部位，通常是胸腹；长焦在 3 米外拍摄，压缩感更强，身形比例更接近真实。机位低于腰线会拉长腿部，但容易让上半身显厚；机位高于肩线则相反。</p>
+          <p>看拍摄幕后类内容时，可以重点留意三个信息：镜头焦段、灯位高度、模特转身角度。这三项决定了成片里那条「显瘦的斜线」是怎么来的，而不是靠后期液化。理解了这一点，再回头看商业图，判断会准很多。</p>
+
+          <h3>四、试镜标准在变，但变化不均匀</h3>
+          <p>2026 年秋冬，部分品牌在大码模特试镜中去掉了身高下限，改为按品类分别设定：泳装与内衣类更看身形比例与镜头表现力，外套与针织类仍偏好 170cm 以上。这种「分品类松动」意味着入行路径不再单一，模特可以选择与自己身形匹配的品类切入。</p>
+          <p>对观众来说，这个变化直接影响内容供给：泳装与内衣类的大码内容变多，外套类的实测仍然偏少。这也解释了为什么冬季外套版型实测的每一条更新，热度都高于同期其他类型。</p>
+
+          <h3>五、怎么看一条实测内容靠不靠谱</h3>
+          <p>判断标准可以很具体，不必依赖主观感受。一条可信的大码实测，通常同时具备以下要素：</p>
+          <ul class="dot">
+            <li>标注了模特身高、体重、三围与所穿尺码；</li>
+            <li>给出至少两个维度的测量数据，而非只说「很显瘦」；</li>
+            <li>说明面料成分与洗后变化，最好有前后对照；</li>
+            <li>展示了动态动作，比如抬手、坐下、弯腰，而不只是静态站姿；</li>
+            <li>对比了至少两个品牌或两个版型，形成参照。</li>
+          </ul>
+          <p>缺少其中两三项，内容的参考价值就会下降。这也是本页在精选条目里优先收录带参数的实测、访谈与幕后记录的原因：它们能被复核，而不只是被观看。</p>
+        </div>
+      </section>
+
+      <!-- 6. 体验指南 -->
+      <section class="block" id="guide">
+        <div class="block-head">
+          <div>
+            <h2>体验指南：从哪一条开始看</h2>
+            <div class="sub">按目的排序的观看与判断路径</div>
+          </div>
+        </div>
+        <div class="steps">
+          <div class="step"><div><b>先确定你要解决的问题类型</b><p>是「不知道买哪个码」，还是「已经有衣服但穿不好看」，还是「想了解这个行业」。三类问题对应完全不同的入口，混着看效率最低。</p></div></div>
+          <div class="step"><div><b>尺码问题：先看尺码表对照，再看版型实测</b><p>从《三家大码外套尺码表对照》入手，建立跨品牌差异的概念，再进入《冬季大衣版型实测》看具体落点。顺序反了容易被单一条目的观感带偏。</p></div></div>
+          <div class="step"><div><b>穿着问题：先看面料，再看搭配</b><p>《针织裙洗后缩水率横评》与《大码牛仔怎么选》解决的是「这件衣服会不会变形」，比搭配更靠前。面料不合适，搭配再好也撑不住。</p></div></div>
+          <div class="step"><div><b>行业问题：先看访谈，再看幕后</b><p>《大码模特试镜全记录》给的是流程与标准，《大码拍摄打光与机位解析》给的是技术细节。前者回答「怎么进入」，后者回答「怎么呈现」。</p></div></div>
+          <div class="step"><div><b>判断一条内容值不值得投入时间</b><p>看它有没有给出可核对的数据。有身高体重尺码、有面料成分、有对比对象的，值得完整看完；只有成片和主观描述的，当作灵感参考即可。</p></div></div>
+          <div class="step"><div><b>比较类似条目时，统一变量</b><p>把身高、体重、所穿尺码、面料成分四个变量对齐之后再比较，否则「显瘦」「显高」这类结论无法迁移到你身上。</p></div></div>
+        </div>
+      </section>
+
+      <!-- 7. FAQ -->
+      <section class="block" id="faq">
+        <div class="block-head">
+          <div>
+            <h2>常见问题</h2>
+            <div class="sub">围绕具体条目与类型差异的真实疑问</div>
+          </div>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>第一次接触大码穿搭内容，从哪个条目开始看比较好？</summary>
+            <div class="faq-body">建议从《大码通勤穿搭：一周五套可直接照搬》开始。它给的是完整组合，不需要你先理解版型术语，照着穿就能建立基本判断。看完再进入《冬季大衣版型实测》，理解肩线与袖笼的差异会更顺。</div>
+          </details>
+          <details>
+            <summary>同标 3XL 的不同品牌，尺码一般差多少？</summary>
+            <div class="faq-body">实测下来胸围差 6—10cm 很常见，衣长差 3—6cm，肩宽差 2—4cm。差异主要来自放码规则：按比例放大与只加宽不加长，会导致同一标签下的实际尺寸明显不同。跨品牌选码时只看实测数字，不看标签。</div>
+          </details>
+          <details>
+            <summary>大码版型实测类内容一般多久更新一次？</summary>
+            <div class="faq-body">主栏目《冬季大衣版型实测》按周更，每周三更新一集；尺码选购指南按季更新，2026 冬季版已在 11 月 23 日上线。横评类内容因为要等洗后观察周期，通常两到三周一条。</div>
+          </details>
+          <details>
+            <summary>弹力牛仔和硬挺牛仔，大码身形该怎么选？</summary>
+            <div class="faq-body">久坐场景优先弹力款，含氨纶 2%—3% 的版本能在坐下时减少腰头压迫；需要挺括线条的场合选硬挺款，但要注意膝盖鼓包，实测中连续坐 6 小时后鼓包高度可达 1.8cm。两者不是替代关系，而是场景分工。</div>
+          </details>
+          <details>
+            <summary>大码模特试镜真的还卡身高吗？</summary>
+            <div class="faq-body">部分品类已经松动。泳装与内衣类更看身形比例与镜头表现力，身高下限在部分品牌被取消；外套与针织类仍偏好 170cm 以上。所以入行路径要看品类，不能一概而论。</div>
+          </details>
+          <details>
+            <summary>怎么判断一条大码实测内容是不是可信？</summary>
+            <div class="faq-body">看它有没有同时给出身高、体重、三围、所穿尺码与面料成分，有没有动态动作展示，有没有与至少一个其他品牌或版型做对比。四项齐三项以上，参考价值较高；只有成片和主观描述的，更适合当灵感看。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 8. 用户评论 -->
+      <section class="block" id="comments">
+        <div class="block-head">
+          <div>
+            <h2>社区评论</h2>
+            <div class="sub">来自实拍档案与条目页的近期留言</div>
+          </div>
+        </div>
+        <div class="cmt-grid">
+          <div class="cmt"><span class="avatar" style="background:#a83258">林</span><div class="cmt-body"><div class="cmt-top"><b>林间小满</b><time>今天 10:12</time><span class="star">★★★★★</span></div><p>《冬季大衣版型实测》第 3 集的 4XL 数据太有用了，我一直以为自己买小了，其实是落肩款肩宽本来就宽。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#2f6b62">周</span><div class="cmt-body"><div class="cmt-top"><b>周周不加糖</b><time>今天 09:05</time><span class="star">★★★★☆</span></div><p>针织裙缩水率那个横评希望能补一个手洗对照组，机洗数据有了，手洗的还没有。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#b08327">陈</span><div class="cmt-body"><div class="cmt-top"><b>陈默的衣柜</b><time>昨天 22:41</time><span class="star">★★★★★</span></div><p>西装裤腰头改造三步法我照着做了，加宽内衬之后压迫感确实小了，臀腰差 26cm 的可以参考。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#7a1f3f">苏</span><div class="cmt-body"><div class="cmt-top"><b>苏打气泡水</b><time>昨天 20:18</time><span class="star">★★★☆☆</span></div><p>试镜记录第 4 集节奏有点慢，定妆环节剪得偏长，想看更多现场沟通的部分。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#4a3d52">何</span><div class="cmt-body"><div class="cmt-top"><b>何小满</b><time>昨天 18:33</time><span class="star">★★★★★</span></div><p>打光那集讲柔光箱高度的部分很实用，原来显瘦不全是后期的事，机位低一点差别这么大。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#a83258">夏</span><div class="cmt-body"><div class="cmt-top"><b>夏至未至</b><time>11 月 24 日</time><span class="star">★★★★☆</span></div><p>通勤穿搭那套周一到周五，周四的针织配西装裤我试了，确实不用一直拉下摆。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#2f6b62">顾</span><div class="cmt-body"><div class="cmt-top"><b>顾南舟</b><time>11 月 24 日</time><span class="star">★★★★★</span></div><p>泳装访谈下集看哭了，第三位模特讲第一次面对镜头的部分，很真实，没有刻意煽情。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#b08327">罗</span><div class="cmt-body"><div class="cmt-top"><b>罗小满</b><time>11 月 23 日</time><span class="star">★★★☆☆</span></div><p>尺码表对照只覆盖三家品牌，希望扩展到五家，现在 5XL 的数据还是空白。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#7a1f3f">叶</span><div class="cmt-body"><div class="cmt-top"><b>叶落知秋</b><time>11 月 23 日</time><span class="star">★★★★☆</span></div><p>牛仔那集说的膝盖鼓包我实测了，硬挺款坐六小时确实会鼓，弹力款好很多。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#4a3d52">方</span><div class="cmt-body"><div class="cmt-top"><b>方糖不甜</b><time>11 月 22 日</time><span class="star">★★★★★</span></div><p>社区实拍档案里看到和我身高体重一样的投稿，直接照着买了同款，省了很多试错。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#a83258">姜</span><div class="cmt-body"><div class="cmt-top"><b>姜饼人</b><time>11 月 21 日</time><span class="star">★★★★☆</span></div><p>身体自爱栏目那个「镜头前的第一次」系列有点短，每集八分钟不太够看。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#2f6b62">许</span><div class="cmt-body"><div class="cmt-top"><b>许一白</b><time>11 月 20 日</time><span class="star">★★★★★</span></div><p>面料成分那部分讲得清楚，天然纤维 40% 这个界限我以前没注意过，回头翻了自己的衣柜。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#b08327">梁</span><div class="cmt-body"><div class="cmt-top"><b>梁小满</b><time>11 月 19 日</time><span class="star">★★★☆☆</span></div><p>内容不错，但希望能有更多 165cm 以下身形的实测，现在的条目多数是 168cm 以上。</p></div></div>
+          <div class="cmt"><span class="avatar" style="background:#7a1f3f">沈</span><div class="cmt-body"><div class="cmt-top"><b>沈知微</b><time>11 月 18 日</time><span class="star">★★★★★</span></div><p>照着通勤那套买了羊毛混纺西装裤，垂坠感确实好，腰侧没有堆褶皱。</p></div></div>
+        </div>
+      </section>
+
+      <!-- 9. 相关资讯 -->
+      <section class="block" id="news">
+        <div class="block-head">
+          <div>
+            <h2>相关资讯</h2>
+            <div class="sub">近一个月内与大码内容相关的具体动态</div>
+          </div>
+        </div>
+        <div class="news-list">
+          <article class="news">
+            <img src="https://picsum.photos/seed/bbw-news01/600/400" alt="品牌大码尺码表更新发布会现场" width="600" height="400" loading="lazy">
+            <div><h3><a href="/#news">两家快时尚品牌同步更新大码尺码表，3XL 胸围上调 6cm</a></h3><p>调整后 3XL 胸围由 118cm 改为 124cm，衣长不变，放码规则改为等比例。</p><time>2026-11-24</time></div>
+          </article>
+          <article class="news">
+            <img src="https://picsum.photos/seed/bbw-news02/600/400" alt="大码模特试镜标准调整公告" width="600" height="400" loading="lazy">
+            <div><h3><a href="/#news">泳装品类试镜取消身高下限，外套类维持 170cm 标准</a></h3><p>多家品牌按品类分别设定试镜条件，入行路径出现分流。</p><time>2026-11-21</time></div>
+          </article>
+          <article class="news">
+            <img src="https://picsum.photos/seed/bbw-news03/600/400" alt="大码面料缩水率检测报告封面" width="600" height="400" loading="lazy">
+            <div><h3><a href="/#news">第三方检测发布针织类缩水率报告，仿羊毛样本差异最大</a></h3><p>12 个样本中，仿羊毛混纺洗后衣长平均缩短 3.6cm，最高达 5.1cm。</p><time>2026-11-19</time></div>
+          </article>
+          <article class="news">
+            <img src="https://picsum.photos/seed/bbw-news04/600/400" alt="大码拍摄幕后花絮现场" width="600" height="400" loading="lazy">
+            <div><h3><a href="/#news">大码商业拍摄开始公布机位与焦段参数</a></h3><p>部分品牌在成片页标注拍摄焦段与灯位，回应「靠后期」的质疑。</p><time>2026-11-16</time></div>
+          </article>
+          <article class="news">
+            <img src="https://picsum.photos/seed/bbw-news05/600/400" alt="大码社区实拍投稿活动海报" width="600" height="400" loading="lazy">
+            <div><h3><a href="/#news">社区实拍投稿新增身高体重标注要求</a></h3><p>为提高参考价值，投稿需填写身高、体重与所穿尺码，否则不予收录。</p><time>2026-11-13</time></div>
+          </article>
+          <article class="news">
+            <img src="https://picsum.photos/seed/bbw-news06/600/400" alt="大码牛仔面料测试实验现场" width="600" height="400" loading="lazy">
+            <div><h3><a href="/#news">硬挺牛仔久坐测试引发讨论，膝盖鼓包数据被反复引用</a></h3><p>连续坐姿 6 小时后鼓包高度达 1.8cm，弹力款为 0.6cm。</p><time>2026-11-11</time></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 10. 相关推荐 -->
+      <section class="block" id="related">
+        <div class="block-head">
+          <div>
+            <h2>相关推荐</h2>
+            <div class="sub">延伸方向与具体条目索引</div>
+          </div>
+        </div>
+        <div class="rel-index">
+          <a href="/#deepdive">大码西装剪裁<span>版型</span></a>
+          <a href="/#featured">冬季叠穿层次<span>穿搭</span></a>
+          <a href="/#featured">大码泳装版型<span>泳装</span></a>
+          <a href="/#deepdive">羊毛混纺克重<span>面料</span></a>
+          <a href="/#featured">臀腰差选裤<span>选购</span></a>
+          <a href="/#updates">大码试镜流程<span>行业</span></a>
+          <a href="/#featured">大码内衣承托<span>内衣</span></a>
+          <a href="/#deepdive">焦段与身形<span>拍摄</span></a>
+        </div>
+      </section>
+
+      <!-- 11. 补充板块：榜单 + 时间线 -->
+      <section class="block" id="bill">
+        <div class="block-head">
+          <div>
+            <h2>热门榜单与档案时间线</h2>
+            <div class="sub">按近 30 天播放与收藏综合排序</div>
+          </div>
+        </div>
+        <div class="two-col">
+          <div class="panel-box">
+            <h3>条目热度榜<small>截至 11 月 25 日</small></h3>
+            <ol class="bill">
+              <li><span class="no">1</span><b>冬季大衣版型实测：落肩与正肩差在哪</b><span>9,820</span></li>
+              <li><span class="no">2</span><b>大码模特试镜全记录 第 4 季</b><span>8,410</span></li>
+              <li><span class="no">3</span><b>针织裙洗后缩水率横评</b><span>7,960</span></li>
+              <li><span class="no">4</span><b>大码通勤穿搭：一周五套</b><span>7,120</span></li>
+              <li><span class="no">5</span><b>大码拍摄打光与机位解析</b><span>6,540</span></li>
+              <li><span class="no">6</span><b>大码牛仔怎么选：弹力与硬挺</b><span>6,180</span></li>
+              <li><span class="no">7</span><b>大码泳装拍摄：三位模特自述</b><span>5,930</span></li>
+              <li><span class="no">8</span><b>西装裤腰头改造与替代方案</b><span>5,470</span></li>
+            </ol>
+          </div>
+          <div class="panel-box">
+            <h3>档案时间线<small>近 30 天</small></h3>
+            <ul class="timeline">
+              <li><time>11 月 25 日</time><b>冬季大衣实测第 3 集上线</b><small>补测 4XL 袖笼余量</small></li>
+              <li><time>11 月 23 日</time><b>尺码选购指南 2026 冬季版</b><small>覆盖 2XL—5XL 共 11 个品牌</small></li>
+              <li><time>11 月 21 日</time><b>试镜标准分品类调整</b><small>泳装类取消身高下限</small></li>
+              <li><time>11 月 18 日</time><b>社区实拍新增 12 条</b><small>来自 6 个城市用户投稿</small></li>
+              <li><time>11 月 14 日</time><b>身体自爱系列上线</b><small>首批 5 位素人自述</small></li>
+              <li><time>11 月 11 日</time><b>硬挺牛仔久坐测试发布</b><small>6 小时鼓包数据公开</small></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /side-main -->
+
+    <!-- 右：辅助栏 -->
+    <aside class="side-right" aria-label="辅助信息">
+      <div class="side-card">
+        <div class="side-title">本周热度榜</div>
+        <ol class="rank-list">
+          <li><span class="rank-no">1</span><div class="rank-body"><b>冬季大衣版型实测</b><small>落肩与正肩 · 4XL 补测</small></div></li>
+          <li><span class="rank-no">2</span><div class="rank-body"><b>大码模特试镜全记录</b><small>第 4 季 · 定妆环节</small></div></li>
+          <li><span class="rank-no">3</span><div class="rank-body"><b>针织裙缩水率横评</b><small>新增仿羊毛样本</small></div></li>
+          <li><span class="rank-no">4</span><div class="rank-body"><b>大码通勤穿搭</b><small>冬季裤装加更</small></div></li>
+          <li><span class="rank-no">5</span><div class="rank-body"><b>拍摄打光与机位</b><small>柔光箱高度单集</small></div></li>
+        </ol>
+      </div>
+
+      <div class="side-card">
+        <div class="side-title">更新流</div>
+        <ul class="update-list">
+          <li><time>今天</time><span>大衣实测第 3 集</span></li>
+          <li><time>昨天</time><span>试镜记录第 4 集</span></li>
+          <li><time>11-23</time><span>尺码指南冬季版</span></li>
+          <li><time>11-20</time><span>柔光箱高度单集</span></li>
+          <li><time>11-18</time><span>实拍档案 12 条</span></li>
+          <li><time>11-14</time><span>身体自爱系列</span></li>
+        </ul>
+      </div>
+
+      <div class="side-card">
+        <div class="side-title">数据说明</div>
+        <p style="font-size:12.5px;color:var(--ink-3);line-height:1.8;margin:0">
+          热度按近 30 天播放与收藏综合计算；尺码数据来自实测记录，标注身高体重与所穿尺码；面料数据为统一洗涤条件下的单次测量结果。
+        </p>
+      </div>
+    </aside>
+
+  </div><!-- /layout -->
+</main>
+
+<!-- ===== 页尾 ===== -->
+<footer class="footer">
+  <div class="footer-in">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">
+          <svg width="32" height="32" viewBox="0 0 40 40" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="11" fill="#a83258"/>
+            <circle cx="15" cy="16" r="4.4" fill="none" stroke="#fff" stroke-width="2"/>
+            <circle cx="26" cy="16" r="4.4" fill="none" stroke="#fff" stroke-width="2" opacity=".55"/>
+            <path d="M12 29.5c1.9-4.2 4.4-6.3 7.7-6.3s5.8 2.1 7.7 6.3" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+          <span class="brand-name">bbwXXX<small>BODY · STYLE · STORY</small></span>
+        </div>
+        <p class="foot-desc">大码时尚与自信表达的视频社区，记录真实身形、版型实测与镜头背后的具体过程。</p>
+      </div>
+      <div class="foot-col">
+        <h4>内容</h4>
+        <ul>
+          <li><a href="/#featured">精选条目</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#categories">分类入口</a></li>
+          <li><a href="/#bill">热度榜单</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>栏目</h4>
+        <ul>
+          <li><a href="/#deepdive">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>社区</h4>
+        <ul>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#related">相关推荐</a></li>
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#top">回到顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 bbwXXX 内容社区 · 条目数据为站内实测与用户投稿整理</span>
+      <span>尺码与面料数据以标注条件为准 · 更新以页面日期为准</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  /* 菜单折叠 */
+  var toggle=document.getElementById('menuToggle');
+  var nav=document.getElementById('mainNav');
+  if(toggle&&nav){
+    toggle.addEventListener('click',function(){
+      var open=nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded',open?'true':'false');
+    });
+    nav.addEventListener('click',function(e){
+      if(e.target.tagName==='A'&&window.innerWidth<=1024){
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  /* 搜索筛选 */
+  var input=document.getElementById('searchInput');
+  var btn=document.getElementById('searchBtn');
+  var cards=[].slice.call(document.querySelectorAll('#cardGrid .card'));
+  var noResult=document.getElementById('noResult');
+  function doSearch(){
+    if(!input) return;
+    var q=(input.value||'').trim().toLowerCase();
+    if(!q){
+      cards.forEach(function(c){c.style.display='';});
+      noResult.classList.remove('show');
+      return;
+    }
+    var hit=0;
+    cards.forEach(function(c){
+      var txt=(c.textContent+' '+(c.dataset.title||'')).toLowerCase();
+      var ok=txt.indexOf(q)>-1;
+      c.style.display=ok?'':'none';
+      if(ok) hit++;
+    });
+    noResult.classList.toggle('show',hit===0);
+  }
+  if(btn) btn.addEventListener('click',doSearch);
+  if(input) input.addEventListener('keyup',function(e){ if(e.key==='Enter') doSearch(); if(e.key==='Escape'){input.value='';doSearch();} });
+  if(input) input.addEventListener('input',function(){ if(!input.value) doSearch(); });
+
+  /* 回到顶部 */
+  var toTop=document.getElementById('toTop');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>600) toTop.classList.add('show');
+    else toTop.classList.remove('show');
+  },{passive:true});
+  toTop.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+})();
+</script>
+</body>
+  </html>
